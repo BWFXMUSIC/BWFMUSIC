@@ -5,8 +5,8 @@ from VenomX import app as bot
 from datetime import datetime
 
 WEL_GIFS = [
-    "https://telegra.ph/file/bd77135692ad077d34d64.mp4",
-    "https://telegra.ph/file/d035da20a017e98bff27c.mp4"
+    "https://telegra.ph/file/d34b0a13d6e0fdfeb474b.jpg",
+    "https://telegra.ph/file/d34b0a13d6e0fdfeb474b.jpg"
 ]
 
 def create_close_button():
@@ -29,6 +29,6 @@ async def member_has_left(_, m: Message):
     left_gif = "https://telegra.ph/file/d53f47bcb7c6f9101bd93.mp4"
     await m.reply_animation(
         left_gif,
-        caption=f"Sᴀᴅ Tᴏ Sᴇᴇ Yᴏᴜ Lᴇᴀᴠɪɴɢ {m.from_user.mention}\nTᴀᴋᴇ Cᴀʀᴇ!\n",
+        caption=f"🍒Sᴀᴅ Tᴏ🙊Sᴇᴇ Yᴏᴜ 👻Lᴇᴀᴠɪɴɢ💨 {m.from_user.mention}\n💒 @BWF_MUSIC1 💒!\n",
         reply_markup=create_close_button()
     )
